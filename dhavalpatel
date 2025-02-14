@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Safety Store - Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fire Safety Store</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+
+            <div class="product">
+                <img src="images/fire-alarm.jpg" alt="Fire Alarm">
+                <h3>Fire Alarm</h3>
+                <p>High-quality fire alarm for safety.</p>
+                <p class="price">$30</p>
+                <button onclick="addToCart('Fire Alarm', 30)">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="images/hose-reel.jpg" alt="Hose Reel">
+                <h3>Hose Reel</h3>
+                <p>Durable fire hose reel.</p>
+                <p class="price">$50</p>
+                <button onclick="addToCart('Hose Reel', 50)">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="images/smoke-detector.jpg" alt="Smoke Detector">
+                <h3>Smoke Detector</h3>
+                <p>Smart smoke detector.</p>
+                <p class="price">$40</p>
+                <button onclick="addToCart('Smoke Detector', 40)">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="images/helmet.jpg" alt="Helmet">
+                <h3>Safety Helmet</h3>
+                <p>Protective safety helmet.</p>
+                <p class="price">$25</p>
+                <button onclick="addToCart('Safety Helmet', 25)">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="images/dust-mask.jpg" alt="Dust Mask">
+                <h3>Dust Mask</h3>
+                <p>Breathable dust mask.</p>
+                <p class="price">$10</p>
+                <button onclick="addToCart('Dust Mask', 10)">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="images/hand-gloves.jpg" alt="Hand Gloves">
+                <h3>Hand Gloves</h3>
+                <p>Heat-resistant hand gloves.</p>
+                <p class="price">$15</p>
+                <button onclick="addToCart('Hand Gloves', 15)">Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="images/safety-shoes.jpg" alt="Safety Shoes">
+                <h3>Safety Shoes</h3>
+                <p>Anti-slip safety shoes.</p>
+                <p class="price">$60</p>
+                <button onclick="addToCart('Safety Shoes', 60)">Buy Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
